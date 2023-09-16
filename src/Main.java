@@ -9,7 +9,12 @@ public class Main {
         double iDouble = 27.12;
         short fShort = 569;
 
-
+        byte Lyudmila_Palovna = 23;
+        byte Anna_Sergeyevna = 27;
+        byte Ekaterina_Andreevna = 30;
+        int total_students = Lyudmila_Palovna + Anna_Sergeyevna + Ekaterina_Andreevna;
+        int total_lists_students  = 480/total_students;
+        System.out.println("На каждого ученика рассчитано " + total_lists_students + " листов бумаги." );
 
 
     }
