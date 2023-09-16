@@ -48,6 +48,14 @@ public class Main {
         System.out.println("Вес спортзавтрака " + totalWeightInKg + " в кг");
 
 
+        int AthleteLosesGram1 = 250;
+        int AthleteLosesGram2 = 500;
+        int target = 7000;
+        int days1 =  target / AthleteLosesGram1;
+        int days2 =  target / AthleteLosesGram2;
+        int daysOnAverage = (days1 + days2) / 2;
+        System.out.println("Чтобы добиться результата похудения, потребуется спортсмену в среднем " + daysOnAverage + " день.");
+
 
     }
 }
