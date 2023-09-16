@@ -57,5 +57,27 @@ public class Main {
         System.out.println("Чтобы добиться результата похудения, потребуется спортсмену в среднем " + daysOnAverage + " день.");
 
 
+         int masha = 67760 * 12;// Зарплата за год
+         int denis = 83690 * 12;
+         int christina = 76230 * 12;
+
+         int salaryIncreaseMasha = masha / 10;//Надбавка за год
+         int salaryIncreaseDenis = denis / 10 ;
+         int salaryIncreaseChristina = christina / 10;
+
+         int annualncIomeWithASurchargeMasha = masha + salaryIncreaseMasha; // ЗП после повышения за год
+         int annualncIomeWithASurchargeDenis = denis + salaryIncreaseDenis;
+         int annualncIomeWithASurchargeChristina = christina + salaryIncreaseChristina;
+
+         int differenceMasha = annualncIomeWithASurchargeMasha - masha ;
+         int differenceDenis = annualncIomeWithASurchargeDenis - denis ;
+         int differenceChristina = annualncIomeWithASurchargeChristina - christina ;
+
+         System.out.println("Маша теперь получает " + annualncIomeWithASurchargeMasha + " рублей в год. Годовой доход вырос на " + differenceMasha + " рублей." );
+         System.out.println("Денис теперь получает " + annualncIomeWithASurchargeDenis + " рублей в год. Годовой доход вырос на " + differenceDenis + " рублей." );
+         System.out.println("Кристина теперь получает " + annualncIomeWithASurchargeChristina + " рублей в год. Годовой доход вырос на " + differenceChristina + " рублей." );
+
+
+
     }
 }
