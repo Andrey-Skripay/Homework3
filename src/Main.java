@@ -32,6 +32,14 @@ public class Main {
 
 
 
+        byte totalCans= 120;
+        byte totalCansOfClass = 2+4;
+        int totalClasses = totalCans / totalCansOfClass;
+        int whitePaint = totalClasses * 2;
+        int brownPaint = totalClasses * 4;
+        System.out.println("В школе, где " + totalClasses +" классов, нужно " +  whitePaint + "  банок белой краски и " + brownPaint + " банок коричневой краски.");
+
+
 
 
     }
