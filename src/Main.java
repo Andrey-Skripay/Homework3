@@ -40,6 +40,13 @@ public class Main {
         System.out.println("В школе, где " + totalClasses +" классов, нужно " +  whitePaint + "  банок белой краски и " + brownPaint + " банок коричневой краски.");
 
 
+        double gramBananas = 0.080 * 5;
+        double gramMilk = 0.105 * 2;
+        double gramIceCreamSundae = 0.100 * 2;
+        double gramEggsRaw = 0.070 * 4;
+        double totalWeightInKg = gramBananas + gramMilk + gramIceCreamSundae + gramEggsRaw;
+        System.out.println("Вес спортзавтрака " + totalWeightInKg + " в кг");
+
 
 
     }
