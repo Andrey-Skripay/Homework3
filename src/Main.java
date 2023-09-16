@@ -16,6 +16,23 @@ public class Main {
         int total_lists_students  = 480/total_students;
         System.out.println("На каждого ученика рассчитано " + total_lists_students + " листов бумаги." );
 
+        byte machinePerformance1 =16/2; // Производительность машины за 1 минуту
+        byte min20 = 20;
+        int machinePerformance20 = machinePerformance1 * min20;
+        System.out.println("За " + min20 + " минут" + " машина произвела " + machinePerformance20 + " штук бутылок");
+        short day = 1440; //количество минут в 1 дне
+        long machinePerformanceDay = machinePerformance1 * day;
+        System.out.println("За " + day + " минут" + " машина произвела " + machinePerformanceDay + " штук бутылок");
+        short day3 = 4320; // количество минут в 3х днях
+        long machinePerformanceDay3 = machinePerformance1 * day3;
+        System.out.println("За " + day3 + " минут" + " машина произвела " + machinePerformanceDay3 + " штук бутылок");
+        long month31day = 44640; //количество минут в 1 месяце
+        long machinePerformanceMonth = machinePerformance1 * month31day;
+        System.out.println("За " + month31day + " минут" + " машина произвела " + machinePerformanceMonth+ " штук бутылок");
+
+
+
+
 
     }
 }
